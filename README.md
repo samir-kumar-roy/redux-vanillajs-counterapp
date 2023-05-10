@@ -1,0 +1,1 @@
+##Simple counter app using vanilla javascript and redux
