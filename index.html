@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Redux with Vanilla Javascript</title>
+    <style>
+        button {
+            cursor: pointer;
+            padding: 5px 10px;
+            font-size: 1.0rem;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container" style="text-align: center; margin-top: 80px;">
+            <h2 id="counterElem" style="height: 40px;"></h2>
+            <div id="buttons">
+                <button id="decrement">Decrement</button>
+                <button id="increment">Increment</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.1/redux.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
